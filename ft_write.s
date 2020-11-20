@@ -9,10 +9,6 @@ ft_write:
 			jl error_out
 			ret
 
-error_2:
-			mov rax, -1
-			ret
-
 error_out:
 			neg rax
 			mov r10, rax
