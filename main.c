@@ -44,7 +44,7 @@ int		ft_strcmp(const char *s1, const char *s2);
 
 int main(void)
 {
-	char *s = "salut";
-	ft_write(-4, s, 9);
+	char *s = NULL;
+	write(-4, s, 9);
 	return (0);
 }
