@@ -23,5 +23,6 @@ main:
 out:
 			movzx rax, al
 			movzx rdx, dl
-			sub rax, rdx
+			sub rdx, rax
+			mov rax, rdx
 			ret
