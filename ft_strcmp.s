@@ -1,12 +1,10 @@
 			section .txt
 			global ft_strcmp
 
-;int	ft_strcmp(char *s1, char *s2
-
 ft_strcmp:
 			mov r9, 0
-			mov dl, 0 ;petit bout 0
-			mov al, 0 ;petit bout 0
+			mov dl, 0
+			mov al, 0
 main:
 			mov dl, BYTE[rdi + r9]
 			mov al, BYTE[rsi + r9]
